@@ -1,0 +1,16 @@
+	<html>
+		<script type="text/javascript">
+alert('Este es un ejemplo de la estructura for'); // Texto simple
+var text; // Declaramos la variable text
+var num; // Declaramos la variable num
+var salida = ''; // Declaramos la variable salida
+text = prompt('Escribe un texto',''); // Introduccion de datos
+num = prompt('Cuantas veces quieres que lo repita',''); // Introduccion de datos
+num = parseInt(num,10); // Parchamos de string a number la variable num
+for(i=1;i<=num;i++) // Declaramos que i vale 1; mientras i sea menor o igual a num continuar; i se ira sumando 1
+{
+salida = salida+text+'\n'; // Mensaje de salida
+}
+alert(salida); // Mostrar mensaje de salida
+		</script>
+	</html>

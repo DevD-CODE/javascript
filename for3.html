@@ -1,0 +1,18 @@
+	<html>
+		<script type="text/javascript">
+alert('3er ejemplo de la estructura for'); // Texto simple
+var salida = ''; // Variable de resultado
+var num; // Variable de introduccion de datos
+var suma = 0; // Variable de total de los multiplos
+var multi; // Variable de multiplos
+num = prompt('De cual numero quieres saber sus multiplos',''); // Introduccion de datos
+num = parseInt(num,10); // Parchamos de string a number la variable num
+for(i=1;i<=10;i++) // Declaramos la variable i con un valor de 1; Decimos que mientras i sea igual o menor a 10 continuar; i suma 1
+{
+multi = num*i; // Sacamos los multiplos del numero especificado
+salida = salida+multi+' '; // Declaramos que salida mostrara los multiplos
+suma = suma+multi; // Sumamos todos los multiplos
+}
+alert(salida+'\nEl total es '+suma); // Mostramos el resultado final en un alert
+		</script>
+	</html>

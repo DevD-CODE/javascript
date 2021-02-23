@@ -1,0 +1,48 @@
+	<html>
+		<script type="text/javascript">
+// Funciones math
+
+// Math.log(x) = ln(x)
+// Math.exp(x) = e x
+// Math.sqrt(x) = raiz cuadrada de “x”
+// Math.pow(a, b) = a b
+// Math.floor(): número entero más cercano y menor
+// Math.ceil(): número entero más cercano y mayor
+// Math.round(): redondea al entero más próximo
+// Math.random(): número aleatorio entre 0 y 1
+// Math.round(y-x)*Math.random()+x: número aleatorio entre “x” e “y”.
+// Math.sin(x)= sin(x) x en radianes
+// Math.cos(x)= cos(x) x en radianes
+// Math.tan(x)= tg(x) x en radianes
+// Math.atan(x)= arctg(x) resultado en radianes
+// Math.abs(x): valor absoluto de “x”
+// Math.max(a,b) : máximo valor de los dos
+// Math.min(a,b): mínimo valor de los dos
+
+// Formula sacar hipotenusa de un triangulo de catetos: cat1*cat1+cat2*cat2; Math.sqrt(x) 
+alert('Sacar hipotnusa de un triangulo de catetos'); // Texto simple
+var cat1,cat2,hip; // Definimos las 3 variables necesarias
+cat1 = prompt('Introduce cateto 1',''); // Introduccion de datos
+cat2 = prompt('Introduce cateto 2',''); // Introduccion de datos
+cat1 = parseInt(cat1); // Parchamos la variable a number
+cat2 = parseInt(cat2); // Parchamos la variable a number
+hip = Math.sqrt(cat1*cat1+cat2*cat2); // Realizamos la operacion matematica
+alert('La hipotenusa es '+hip); // Resultado final
+
+// Calcular muchas hipotenusas como se quiera
+alert('Calcular muchas hipotenusas como se quiera'); // Texto simple
+var opcion = 'S';
+var cat1,cat2,hipo;
+while(opcion=='S' || opcion=='s')
+{
+cat1 = prompt('Introduce cateto 1',''); // Introduccion de datos
+cat2 = prompt('Introduce cateto 2',''); // Introduccion de datos
+cat1 = parseFloat(cat1); // Parchamos la variable a number
+cat2 = parseFloat(cat2); // Parchamos la variable a number
+hipo = Math.sqrt(cat1*cat1+cat2*cat2); // Realizamos la operacion matematica
+alert('La hipotenusa es '+hipo); // Resultado final
+opcion = prompt('¿Quieres calcular otra hipotenusa? (S/N)',''); // Seleccion de opcion
+}
+alert('Hasta pronto'); // Texto simple
+		</script>
+	</html>

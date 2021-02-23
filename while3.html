@@ -1,0 +1,17 @@
+	<html>
+		<script type="text/javascript">
+var nombre; // Definimos la variable nombre
+var contador = 1; // Definimos la variable contador con un valor de 1
+var num; // Definimos la variable num
+var r =''; // Definimos la variable r como resultado
+nombre = prompt('Introduce tu nombre',''); // Introduccion de datos
+num = prompt('Cuantes veces quieres que lo repita',''); // Introduccion de datos
+num = parseInt(num,10); // Parchamos de string a number la variable num
+while(contador <= num) // Mientras contador sea menor o igual a num continuar
+{
+r = r+nombre+'\n'; // Definimos resultado
+contador++ // Contador +1
+}
+alert(r); // Mostramos resultado
+		</script>
+	</html>

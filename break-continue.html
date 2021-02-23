@@ -1,0 +1,18 @@
+	<html>
+		<script type="text/javascript">
+alert('Ejemplo de la ejecucion de break-continue'); // Texto simple
+var salida=""; // Definimos variable de salida
+for(x=1;x<10;x++) // X vale 1; Mientras x sea menor a 10; X suma 1
+{
+if(x==5) break; // Cuando x llegue a 5, se rompe el conteo
+salida = salida+x+' '; // Organizamos salida
+}
+salida = salida+'\n'; // Organizamos salida
+for(x=1;x<10;x++) // X vale 1; Mientras x sea menor a 10; X suma 1
+{
+if(x==5) continue; // Cuando x llegue a 5, continuar el conteo
+salida = salida+x+' '; // Organizamos salida
+}
+alert(salida); // Mostramos salida
+		</script>
+	</html>

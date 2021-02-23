@@ -1,0 +1,46 @@
+	<html>
+		<script type="text/javascript">
+alert('Ejemplo de la ejecucion de Switch-Case'); // Texto simple
+var preguntas,respuestas,nota,notadet; // Declaramos las variables a utilizar
+preguntas = parseInt(prompt('Introduce la cantidad de preguntas','')); // Introduccion de datos
+respuestas = parseInt(prompt('Introduce las respuestas acertadas','')); // Introduccion de datos
+nota = parseInt(10*respuestas/preguntas); // Regla matematica a usar
+switch(nota) // Abrimos menu
+{
+case 0:
+	notadet = 'Reprobatoria'; // Especificacion
+	break;
+case 1:
+	notadet = 'Malisima'; // Especificacion
+	break;
+case 2:
+	notadet = 'Muy mala'; // Especificacion
+	break;
+case 3:
+	notadet = 'Mala'; // Especificacion
+	break;
+case 4:
+	notadet = 'Esfuerzate mas'; // Especificacion
+	break;
+case 5:
+	notadet = 'Casi'; // Especificacion
+	break;
+case 6:
+	notadet = 'Minima aprobatoria'; // Especificacion
+	break;
+case 7:
+	notadet = 'Aprobatoria'; // Especificacion
+	break;
+case 8:
+	notadet = 'Buena'; // Especificacion
+	break;
+case 9:
+	notadet = 'Muy buena'; // Especificacion
+	break;
+case 10:
+	notadet = 'Excelente'; // Especificacion
+	break;
+}
+alert('Tu calificacion es '+notadet); // Resultado
+		</script>
+	</html>

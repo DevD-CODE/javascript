@@ -1,0 +1,37 @@
+	<html>
+		<script type="text/javascript">
+// ==  igualdad
+// !=  diferente
+// &&  y
+// ||  o
+// !  No
+// <Menor, >Mayor
+var a,b; // Definimos variables
+a = parseFloat(prompt('Introduce un numero','')); // Introducimos un numero
+b = parseFloat(prompt('Introduce otro numero','')); // Introducimos otro numero
+if(a==b) alert('Los numeros son iguales'); // Si los 2 numeros introducidos son iguales, se mostrara este mensaje, si no, no se mostrara nada
+if(a != b) alert('Los numeros son diferentes'); // Si los 2 numeros introducidos son diferentes, se mostrara este mensaje, si no, no se mostrara nada
+if(a>b) // Si var a es mayor a var b, mostrar el siguiente alert
+{
+alert('El primer numero es mayor al segundo'); // Mensaje
+}
+else // Si var a no es mayor a var b, mostrar el siguiente alert
+{
+alert('El primer numero no es mayor al segundo'); // Mensaje
+}
+//
+var a2,b2; //Definimos variables
+a2 = parseFloat(prompt('Introduce un numero','')); // Introducimos un numero
+b2 = parseFloat(prompt('Introduce otro numero')); // Introducimos otro numero
+if((a2>b2) && (100>a2)) //Si var a es mayor a var b, mostrar el siguiente alert; si var a es menor a 100, mostrar el siguiente alert
+{
+alert('El primer numero es mayor al segundo'); // Mensaje
+alert('Los dos son menores de 100'); // Mensaje
+}
+else // Si var a no es mayor a var b, mostrar el siguiente alert; si var a es mayor a 100 o es 100, mostrar el siguiente alert
+{
+alert('El primer numero no es mayor al segundo'); // Mensaje
+alert('Uno de los numeros es igual o mayor a 100'); // Mensaje
+}
+		</script>
+	</html>
